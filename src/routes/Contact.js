@@ -1,7 +1,18 @@
+import Hero from '~/components/Home/Hero';
+import banner from '~/assets/2.jpg';
+
 function Contact() {
     return (
         <>
-            <h1>This is Contact</h1>
+            <Hero
+                cName="hero-mid"
+                heroImg={banner}
+                title="Contact"
+                // text="Choose Your Favourite Destination"
+                // buttonText="Travel Plan"
+                // url="/"
+                btnClass="hide"
+            />
         </>
     );
 }
