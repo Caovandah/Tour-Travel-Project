@@ -1,6 +1,7 @@
 import Hero from '~/components/Home/Hero';
 import banner from '~/assets/1.jpg';
 import Footer from '~/components/Footer/Footer';
+import Trip from '~/components/trip/Trip';
 
 function Service() {
     return (
@@ -14,6 +15,7 @@ function Service() {
                 // url="/"
                 btnClass="hide"
             />
+            <Trip />
             <Footer />
         </>
     );
