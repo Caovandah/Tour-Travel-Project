@@ -1,6 +1,7 @@
 import Hero from '~/components/Home/Hero';
 import banner from '~/assets/2.jpg';
 import Footer from '~/components/Footer/Footer';
+import ContactForm from '~/components/Contact/ContactForm';
 
 function Contact() {
     return (
@@ -14,6 +15,7 @@ function Contact() {
                 // url="/"
                 btnClass="hide"
             />
+            <ContactForm />
             <Footer />
         </>
     );
