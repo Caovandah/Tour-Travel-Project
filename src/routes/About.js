@@ -1,5 +1,6 @@
 import Hero from '~/components/Home/Hero';
 import banner from '~/assets/night.jpg';
+import Footer from '~/components/Footer/Footer';
 
 function About() {
     return (
@@ -13,6 +14,7 @@ function About() {
                 // url="/"
                 btnClass="hide"
             />
+            <Footer />
         </>
     );
 }

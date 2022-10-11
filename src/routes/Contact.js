@@ -1,5 +1,6 @@
 import Hero from '~/components/Home/Hero';
 import banner from '~/assets/2.jpg';
+import Footer from '~/components/Footer/Footer';
 
 function Contact() {
     return (
@@ -13,6 +14,7 @@ function Contact() {
                 // url="/"
                 btnClass="hide"
             />
+            <Footer />
         </>
     );
 }

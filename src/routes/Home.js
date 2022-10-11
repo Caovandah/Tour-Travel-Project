@@ -2,6 +2,7 @@ import Hero from '~/components/Home/Hero';
 import banner from '~/assets/12.jpg';
 import Destination from '~/components/destination/Destination';
 import Trip from '~/components/trip/Trip';
+import Footer from '~/components/Footer/Footer';
 
 function Home() {
     return (
@@ -17,6 +18,7 @@ function Home() {
             />
             <Destination />
             <Trip />
+            <Footer />
         </>
     );
 }
