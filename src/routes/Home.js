@@ -1,6 +1,7 @@
 import Hero from '~/components/Home/Hero';
 import banner from '~/assets/12.jpg';
 import Destination from '~/components/destination/Destination';
+import Trip from '~/components/trip/Trip';
 
 function Home() {
     return (
@@ -15,6 +16,7 @@ function Home() {
                 btnClass="show"
             />
             <Destination />
+            <Trip />
         </>
     );
 }
