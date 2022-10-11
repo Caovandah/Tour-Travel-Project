@@ -1,6 +1,7 @@
 import Hero from '~/components/Home/Hero';
 import banner from '~/assets/night.jpg';
 import Footer from '~/components/Footer/Footer';
+import AboutUs from '~/components/About/AboutUs';
 
 function About() {
     return (
@@ -14,6 +15,7 @@ function About() {
                 // url="/"
                 btnClass="hide"
             />
+            <AboutUs />
             <Footer />
         </>
     );
